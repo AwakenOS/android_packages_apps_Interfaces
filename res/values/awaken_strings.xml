@@ -205,4 +205,8 @@
     <string name="keygaurd_media_art_title">Display media cover art</string>
     <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use app icons for notification icons in statusbar</string>
 </resources>
