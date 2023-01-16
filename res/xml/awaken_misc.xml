@@ -30,4 +30,11 @@
         android:title="@string/ignore_window_secure_title"
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
+
+    <!-- Pie animation  -->
+    <com.awaken.support.preferences.GlobalSettingSwitchPreference
+        android:key="pie_animation_style"
+        android:title="@string/pie_animation_style_title"
+        android:summary="@string/pie_animation_style_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
