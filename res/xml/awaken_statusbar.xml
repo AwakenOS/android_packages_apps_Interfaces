@@ -46,6 +46,12 @@
         android:key="quicksettings_category"
         android:title="@string/quicksettings_category_title">
 
+        <!-- Battery -->
+        <Preference
+            android:key="battery_bar_category"
+            android:fragment="com.awaken.support..fragments.BatterySettings"
+            android:title="@string/battery_settings_title" />
+
         <!-- QS Brightness Customization -->
         <com.awaken.support.preferences.SecureSettingMasterSwitchPreference
             android:key="qs_show_brightness"
