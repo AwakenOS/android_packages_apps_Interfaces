@@ -22,11 +22,14 @@
         <item>@string/status_bar_battery_percentage_text_inside</item>
         <item>@string/status_bar_battery_percentage_text_next</item>
     </string-array>
+    <item>@string/status_bar_battery_percent_text_next_right</item>
+        <item>@string/status_bar_battery_percent_text_next_left</item>
 
     <string-array name="battery_percent_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
 
     <!-- Battery -->
