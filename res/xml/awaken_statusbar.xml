@@ -48,10 +48,10 @@
 
      <!-- Battery -->
     <Preference
-       	android:key="statusbar_battery"
-        android:title="@string/battery_percent_title"
-        android:summary="@string/battery_percent_summary"
-        android:fragment="com.awaken.support.fragments.battery.StatusBarBatterySettings"/>
+            android:key="misc_batterysb"
+            android:fragment="com.awaken.support.fragments.battery.MiscBatterySettings"
+            android:title="Misc Battery Icon Settings"
+            android:summary="customize statusbar battery icon settings" />
 
         <!-- QS Brightness Customization -->
         <com.awaken.support.preferences.SecureSettingMasterSwitchPreference
