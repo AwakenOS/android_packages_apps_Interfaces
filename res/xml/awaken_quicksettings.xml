@@ -23,4 +23,24 @@
         android:title="@string/quick_settings_quick_pull_down_title"
         android:summary="@string/quick_settings_quick_pull_down_summary"
         android:defaultValue="true" />
+
+     <PreferenceCategory
+        android:key="quick_settings_battery_category"
+        android:title="@string/status_bar_battery_category_title">
+
+        <com.awaken.support.preferences.SystemSettingListPreference
+            android:key="qs_battery_style"
+            android:title="@string/status_bar_battery_style_title"
+            android:entries="@array/qs_battery_style_entries"
+            android:entryValues="@array/qs_battery_style_values"
+            android:defaultValue="-1" />
+
+        <com.awaken.support.preferences.SystemSettingListPreference
+            android:key="qs_show_battery_percent"
+            android:title="@string/status_bar_battery_percent_title"
+            android:entries="@array/status_bar_battery_percent_entries"
+            android:entryValues="@array/status_bar_battery_percent_values"
+            android:defaultValue="2" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
