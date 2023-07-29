@@ -155,7 +155,7 @@ public class StatusBarBatterySettings extends SettingsPreferenceFragment
                     boolean enabled) {
                 final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                 final SearchIndexableResource sir = new SearchIndexableResource(context);
-                sir.xmlResId = R.xml.battery_settings;
+                sir.xmlResId = R.xml.statusbar_battery_settings;
                 result.add(sir);
                 return result;
             }
