@@ -112,5 +112,15 @@
             android:title="@string/separate_signal_icons_title"
             android:summary="@string/separate_signal_icons_summary"
             android:defaultValue="false" />
+
+        <!-- Max visible notification  -->
+    <com.awaken.support.preferences.SystemSettingSeekBarPreference
+            android:key="max_visible_notification_icons"
+            android:title="@string/max_visible_notification_icons_title"
+            android:summary="@string/max_visible_notification_icons_summary"
+            android:defaultValue="5"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
     </PreferenceCategory>
 </PreferenceScreen>
