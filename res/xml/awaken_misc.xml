@@ -18,4 +18,10 @@
     android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Spoof -->
+    <Preference
+        android:key="spoofing"
+        android:title="@string/spoofing_title"
+        android:fragment="com.android.settings.awaken.fragments.Spoof" />
+
 </PreferenceScreen>
