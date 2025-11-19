@@ -30,13 +30,6 @@
             android:title="@string/heads_up_notifications"
             android:fragment="com.android.settings.awaken.fragments.HeadsUpSettings"/>
 
-    <!-- On lock screen notifications -->
-    <com.android.settings.RestrictedListPreference
-        android:key="privacy_lock_screen_notifications"
-        android:title="@string/lock_screen_notifs_title"
-        android:summary="@string/summary_placeholder"
-        settings:searchable="false"/>
-
     <!-- Show media on lock screen -->
     <SwitchPreference
         android:key="privacy_media_controls_lockscreen"
