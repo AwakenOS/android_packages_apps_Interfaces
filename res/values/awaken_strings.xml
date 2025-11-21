@@ -303,4 +303,8 @@
     <string name="custom_battery_bottom">Margin Bottom</string>
     <string name="custom_battery_left">Margin Left</string>
     <string name="custom_battery_right">Margin Right</string>
+
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
 </resources>
